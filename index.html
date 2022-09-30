@@ -1,0 +1,22 @@
+<head>
+    <script src="./dist/index_bundle.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="https://github.com/andrewjt71" class="header_logo">
+        </a>
+        <span>NPuzzle solver with canvas</span>
+    </div>
+
+    <div class="npuzzle__container">
+        <div class="npuzzle__puzzle" data-npuzzle-app></div>
+        <div class="npuzzle__terminal npuzzle__terminal--hidden" data-npuzzle-terminal></div>
+    </div>
+
+    <div class="npuzzle__config">
+        <p class="npuzzle__config-tip">Click the tiles adjacent to the gap to slide them. Alternatively use the shuffle button to perform a random shuffle. Then click solve to see the puzzle solved with AI</p>
+        <a class="npuzzle__btn npuzzle__btn--config" data-npuzzle-shuffle-btn>Shuffle</a>
+        <a class="npuzzle__btn npuzzle__btn--config" data-npuzzle-solve-btn>Solve</a>
+        <a class="npuzzle__btn npuzzle__btn--config" data-npuzzle-play-btn>Play Solution</a>
+    </div>
+</body>
